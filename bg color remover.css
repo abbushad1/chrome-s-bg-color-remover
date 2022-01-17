@@ -1,0 +1,9 @@
+// Remove chrome autofill color from inputs
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000000s ease-in-out 0s;
+}
+
+# Credit: https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete#answer-29350537
